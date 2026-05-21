@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Quelle est la capitale de l'Australie ?",
+    "choices": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "answer": 2
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française ?",
+    "choices": ["1789", "1815", "1848", "1914"],
+    "answer": 0
+  },
+  {
+    "question": "Quel océan borde la côte ouest de l'Afrique ?",
+    "choices": ["Pacifique", "Atlantique", "Indien", "Arctique"],
+    "answer": 1
+  },
+  {
+    "question": "Qui a peint « La Joconde » ?",
+    "choices": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Botticelli"],
+    "answer": 2
+  },
+  {
+    "question": "Combien de planètes composent le système solaire (modèle officiel actuel) ?",
+    "choices": ["7", "8", "9", "10"],
+    "answer": 1
+  }
+]
