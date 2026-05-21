@@ -5,7 +5,7 @@ c'est mon premier projet du défi "un projet par mois" que je fais pour avoir un
 
 compte github : [YoussDem](https://github.com/YoussDem)
 
-## lancer le truc
+## comment lancer
 
 le plus simple sur windows : double-clic sur `lancer-quiz.bat`
 
