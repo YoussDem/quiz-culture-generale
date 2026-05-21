@@ -1,61 +1,50 @@
-# Quiz Culture Generale
+# quiz culture générale
 
-Quiz en ligne de commande (Python) pour reviser la culture generale.  
-Projet **1/12** du defi « un projet par mois » — [YoussDem](https://github.com/YoussDem).
+petit quiz en python pour réviser un peu (culture générale, pas que de l'info).  
+c'est mon premier projet du défi "un projet par mois" que je fais pour avoir un portfolio plus tard.
 
-## Statut
+compte github : [YoussDem](https://github.com/YoussDem)
 
-| Semaine | Objectif | Etat |
-|---------|----------|------|
-| S1 | Charger le JSON + afficher une question | En cours |
-| S2 | Boucle de partie + score | A faire |
-| S3 | Sauvegarder le meilleur score | A faire |
-| S4 | README final + polish GitHub | A faire |
+## lancer le truc
 
-## Installation
+le plus simple sur windows : double-clic sur `lancer-quiz.bat`
 
-```bash
-git clone https://github.com/YoussDem/quiz-culture-generale.git
+sinon en terminal :
+
+```
 cd quiz-culture-generale
-python main.py
+py main.py
 ```
 
-Prerequis : Python 3.10+ (aucune lib externe).
+(faut python installé, j'utilise la 3.13 chez moi)
 
-## Structure
+## fichiers
 
-```
-quiz-culture-generale/
-├── main.py           # Lance le programme
-├── quiz.py           # Logique (chargement, affichage, reponses)
-├── questions.json    # Banque de questions
-├── scores.json       # Meilleur score (semaine 3)
-└── requirements.txt
-```
+- `main.py` → démarre le programme
+- `quiz.py` → les fonctions du quiz
+- `questions.json` → les questions (c'est là que j'en rajoute)
+- `scores.json` → pour garder les scores plus tard (pas encore utilisé)
+- `lancer-quiz.bat` → pour lancer sans galérer avec le terminal qui se ferme
 
-## Format des questions (`questions.json`)
+## où j'en suis
+
+pour l'instant ça affiche une question avec les 4 réponses. la semaine prochaine je veux faire le truc où on répond à tout le quiz et on a un score à la fin.
+
+## questions.json
+
+chaque question ressemble à ça :
 
 ```json
 {
-  "question": "Texte de la question",
-  "choices": ["A", "B", "C", "D"],
+  "question": "exemple ?",
+  "choices": ["a", "b", "c", "d"],
   "answer": 0
 }
 ```
 
-`answer` est l'**index** de la bonne reponse dans `choices` (0 = premiere option).
+`answer` c'est le numéro de la bonne réponse dans la liste mais en partant de 0 (donc 0 = la première).
 
-## Ce que j'apprends (a completer chaque semaine)
+## notes perso
 
-- S1 : lecture de JSON avec `json`, structure de projet, fonctions Python
-- S2 : ...
-- S3 : ...
-
-## Aide utilisee
-
-- IA : structure du projet et relecture du code
-- Code ecrit / valide par moi : ...
-
-## Licence
-
-MIT
+- j'ai appris à charger un fichier json et à séparer le code en plusieurs fichiers
+- aide ia pour la structure du projet au début, après je modifie moi-même
