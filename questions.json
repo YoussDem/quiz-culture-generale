@@ -1,8 +1,8 @@
 [
   {
     "question": "Quelle est la capitale de l'Australie ?",
-    "choices": ["Sydney", "Melbourne", "Canberra", "Perth"],
-    "answer": 2
+    "choices": ["Sydney", "Melbourne", "Perth", "Canberra"],
+    "answer": 3
   },
   {
     "question": "En quelle année a eu lieu la Révolution française ?",
@@ -21,7 +21,32 @@
   },
   {
     "question": "Combien de planètes composent le système solaire (modèle officiel actuel) ?",
-    "choices": ["7", "8", "9", "10"],
+    "choices": ["7", "9", "10", "8"],
+    "answer": 3
+  },
+  {
+    "question": "Qui est l'auteur du roman « Les Misérables » ?",
+    "choices": ["Victor Hugo", "Molière", "Albert Camus", "Marcel Proust"],
+    "answer": 0
+  },
+  {
+    "question": "Combien de joueurs une équipe de football a-t-elle sur le terrain ?",
+    "choices": ["9", "11", "10", "12"],
     "answer": 1
+  },
+  {
+    "question": "Quel animal terrestre court le plus vite ?",
+    "choices": ["Lion", "Autruche", "Guépard", "Cheval"],
+    "answer": 2
+  },
+  {
+    "question": "Qui a été le premier président de la Ve République française ?",
+    "choices": ["François Mitterrand", "Jacques Chirac", "Napoléon Bonaparte", "Charles de Gaulle"],
+    "answer": 3
+  },
+  {
+    "question": "Quel pays a accueilli les premiers Jeux olympiques modernes en 1896 ?",
+    "choices": ["Grèce", "France", "Italie", "États-Unis"],
+    "answer": 0
   }
 ]
